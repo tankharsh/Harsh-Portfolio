@@ -11,22 +11,18 @@ const Projects = () => {
       github: '',
     },
     {
-        head: 'Matrimony Web App',
-        disc: 'A web-based application allowing users to perform CRUD operations efficiently.',
-        Tech: 'ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB',
-        github: '',
-      },
+      head: 'Workports',
+      disc: 'A web-based application allowing users to perform CRUD operations efficiently.',
+      Tech: 'ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB',
+      github: '',
+    },
       {
-        head: 'Matrimony Web App',
-        disc: 'A web-based application allowing users to perform CRUD operations efficiently.',
-        Tech: 'ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB',
-        github: '',
-      },{
-        head: 'Matrimony Web App',
-        disc: 'A web-based application allowing users to perform CRUD operations efficiently.',
-        Tech: 'ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB',
+        head: 'Real Estate',
+        disc: 'This Project is web based application that is allows to upload your property and manage it',
+        Tech: 'HTML, CSS, JavaScript, PHP',
         github: '',
       },
+      
     
   ];
 
@@ -49,14 +45,14 @@ const Projects = () => {
             <p className="text-gray-600 mt-3 text-lg">{project.disc}</p>
             <p className="mt-4 text-sm text-gray-700 font-medium">Technology: <span className="text-[#6D28D9]">{project.Tech}</span></p>
             <div className="mt-6">
-              <a 
+              {/* <a 
                 href={project.github} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-flex items-center gap-2 bg-[#6D28D9] text-white font-medium px-5 py-2 rounded-lg transition hover:bg-[#4C1D95]"
               >
                 <FaGithub className="text-lg" /> GitHub
-              </a>
+              </a> */}
             </div>
           </div>
         ))}

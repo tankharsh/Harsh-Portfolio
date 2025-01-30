@@ -6,6 +6,7 @@ import JS from '../assets/JS.png';
 import JSX from '../assets/JSX.png';
 import bts from '../assets/bts.png';
 import tailwind from '../assets/tailwind.png';
+import mysql from '../assets/mysql.png';
 
 const SkillSet = () => {
   const skills = [
@@ -16,6 +17,7 @@ const SkillSet = () => {
     { img: tailwind, name: 'Tailwind CSS' },
     { img: JSX, name: 'React Js' },
     { img: php, name: 'PHP' },
+    { img: mysql, name: 'MySQL' },
   ];
 
   return (

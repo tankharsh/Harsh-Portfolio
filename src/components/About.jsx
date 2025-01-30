@@ -31,7 +31,7 @@ const About = () => {
                         { src: insta, alt: 'Instagram', link: 'https://www.instagram.com' },
                         { src: facebook, alt: 'Facebook', link: 'https://www.facebook.com' },
                         { src: linkedin, alt: 'LinkedIn', link: 'https://www.linkedin.com' },
-                        { src: github, alt: 'GitHub', link: 'https://www.github.com' },
+                        { src: github, alt: 'GitHub', link: 'https://github.com/tankharsh' },
                     ].map(({ src, alt, link }) => (
                         <a
                             key={alt}
