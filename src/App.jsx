@@ -13,18 +13,7 @@ const App = () => {
   return (
     <>
       <div className='h-full w-full bg-[#3D4190]'>
-			<ul className="circles">
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+			
         <Navbar />
         <Home />
       </div>
