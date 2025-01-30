@@ -15,12 +15,12 @@ const Navbar = () => {
           <div className="text-2xl font-bold">Harsh's PortFolio</div>
 
           <div className="main-txt hidden md:flex space-x-8">
-          <ul class="text-white flex gap-x-12">
-		<li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#">About</a></li>
-		<li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#">Portfolio</a></li>
-		<li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#">Blog</a></li>
-		<li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#">Contact</a></li>
-	</ul>
+            <ul class="text-white flex gap-x-12">
+              <li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#about">About</a></li>
+              <li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#skills">Skills</a></li>
+              <li class="relative table-cell py-2"><a class="inline-block relative no-underline after-line" href="#project">Project</a></li>
+             
+            </ul>
           </div>
 
           {/* Mobile Menu */}

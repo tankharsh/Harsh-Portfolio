@@ -8,21 +8,13 @@ import Sliceab from '../assets/Sliceab.png'
 const About = () => {
     return (
         <>
-            <div className="w-full h-auto bg-cover bg-fixed pb-20" style={{ backgroundImage: `url(${Sliceab})` }}>
+            <div id='about' className="w-full h-auto bg-cover bg-fixed pb-20" style={{ backgroundImage: `url(${Sliceab})` }}>
                 <div className="">
                     <h1 className="text-center head-txt text-3xl sm:text-4xl md:text-5xl text-white">
                         About ME
                     </h1>
                     <p className="px-4 sm:px-8 md:px-28 mt-5 text-center text-white text-base sm:text-lg md:text-xl">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat libero beatae provident
-                        tenetur id deleniti dolor eveniet, ullam necessitatibus cum error blanditiis quae labore
-                        consectetur fuga commodi. Cupiditate perspiciatis ea culpa, corporis quaerat ullam nesciunt
-                        nihil, temporibus repudiandae repellendus iusto minus praesentium eos nisi sunt officia ipsa.
-                        Ad animi natus, similique molestias amet voluptate, a iusto cum ea quidem nostrum? Rerum
-                        mollitia nihil ipsum? Repellendus rerum inventore et, ipsa iusto labore non dolor veritatis
-                        reiciendis earum, praesentium quo sunt officiis. Sequi nobis reprehenderit, nisi, officia modi
-                        commodi ipsam odio eum illum ullam accusamus eligendi soluta libero deleniti, assumenda id
-                        tempore veritatis eaque quia! Laudantium animi ipsam commodi at 
+                    As a curious learner and creative team player, I am eager to take on the role of a Computer Engineer, where I can leverage my understanding of coding, web development, and problem-solving to deliver efficient solutions. With a strong grasp of both frontend and backend technologies, I aim to develop dynamic and user-friendly applications that enhance user experience and software performance. I thrive in collaborative environments that foster innovation and continuous learning, allowing me to adapt to new technologies and frameworks in the ever-evolving tech industry. My analytical and debugging skills enable me to ensure smooth and efficient project execution, minimizing errors and optimizing performance. Passionate about contributing to innovative projects, I am committed to delivering solutions that align with client requirements and business goals, driving impactful and meaningful advancements in the field of technology.
                     </p>
                 </div>
 

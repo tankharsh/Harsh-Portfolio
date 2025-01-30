@@ -28,6 +28,7 @@ const Projects = () => {
 
   return (
     <div
+    id='project'
     class=" h-auto flex items-center bg-[#010e28] bg-[linear-gradient(to_bottom,_#082740_1px,_transparent_1px),_linear-gradient(to_right,_#082740_1px,_transparent_1px)] [background-size:30px_30px] bg-center overflow-x-hidden animate-bgmove">
 
     <div className="py-12 md:px-20 lg:px-32">

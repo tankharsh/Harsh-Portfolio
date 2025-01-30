@@ -21,7 +21,7 @@ const SkillSet = () => {
   ];
 
   return (
-    <div className="w-full bg-[#12132A] py-10">
+    <div id='skills' className="w-full bg-[#12132A] py-10">
       <h1 className="head-txt text-center text-white text-3xl sm:text-4xl md:text-5xl mb-10">
         Skill Set
       </h1>
