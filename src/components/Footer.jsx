@@ -13,7 +13,7 @@ const Footer = () => {
                 {/* Left Side: Contact Form */}
 
                 <div className="flex flex-col items-center mt-8 ps-10 md:mt-0">
-                    <p className="text-lg font-medium mb-2">Mail Me: <a href="mailto:tankharsh1111@gmail.com" className="underline text-purple-400">tankharsh1111@gmail.com</a></p>
+                    <p className="text-lg font-medium mb-2">Mail Me : <a href="mailto:tankharsh1111@gmail.com" className="underline text-purple-400">tankharsh1111@gmail.com</a></p>
                     <button
                         className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-6 rounded-lg"
                         onClick={() => {

@@ -29,7 +29,7 @@ const SkillSet = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-xl"
+            className="bg-transparent border text-white rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:shadow-xl"
           >
             <img
               src={skill.img}
@@ -37,7 +37,7 @@ const SkillSet = () => {
               className="w-20 h-20 mx-auto mt-6"
             />
             <div className="text-center mt-4 mb-6">
-              <h2 className="text-xl font-semibold">{skill.name}</h2>
+              <h2 className="text-xl text-white font-semibold">{skill.name}</h2>
             </div>
           </div>
         ))}

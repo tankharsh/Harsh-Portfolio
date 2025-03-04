@@ -8,22 +8,21 @@ const Projects = () => {
       head: 'Matrimony Web App',
       disc: 'A web-based application allowing users to perform CRUD operations efficiently.',
       Tech: 'ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB',
-      github: '',
+      github: 'https://github.com/tankharsh/Matrimony',
     },
     {
       head: 'Workports',
       disc: 'A web-based application allowing users to perform CRUD operations efficiently.',
       Tech: 'ReactJs, Tailwind CSS, NodeJs, ExpressJs, MongoDB',
+      github: 'https://github.com/tankharsh/Workport',
+      working: true,
+    },
+    {
+      head: 'Real Estate',
+      disc: 'This Project is web based application that is allows to upload your property and manage it',
+      Tech: 'HTML, CSS, JavaScript, PHP',
       github: '',
     },
-      {
-        head: 'Real Estate',
-        disc: 'This Project is web based application that is allows to upload your property and manage it',
-        Tech: 'HTML, CSS, JavaScript, PHP',
-        github: '',
-      },
-      
-    
   ];
 
   return (
@@ -42,18 +41,21 @@ const Projects = () => {
             <h2 className="head-txt text-2xl font-semibold flex items-center gap-3 text-[#12132A]">
               <GiCircleClaws className="text-[#6D28D9] text-3xl" />
               {project.head}
+              {project.working && <span className="font-sans ml-2 px-3 py-1 bg-green-500 text-white text-xs rounded-full">Working</span>}
             </h2>
             <p className="text-gray-600 mt-3 text-lg">{project.disc}</p>
             <p className="mt-4 text-sm text-gray-700 font-medium">Technology: <span className="text-[#6D28D9]">{project.Tech}</span></p>
             <div className="mt-6">
-              {/* <a 
-                href={project.github} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="inline-flex items-center gap-2 bg-[#6D28D9] text-white font-medium px-5 py-2 rounded-lg transition hover:bg-[#4C1D95]"
-              >
-                <FaGithub className="text-lg" /> GitHub
-              </a> */}
+              {project.github && (
+                <a 
+                  href={project.github} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center gap-2 bg-[#6D28D9] text-white font-medium px-5 py-2 rounded-lg transition hover:bg-[#4C1D95]"
+                >
+                  <FaGithub className="text-lg" /> GitHub
+                </a>
+              )}
             </div>
           </div>
         ))}
