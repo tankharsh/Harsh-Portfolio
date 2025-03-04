@@ -41,7 +41,7 @@ const Home = () => {
                         className="bg-[#12132A] hover:bg-purple-600 text-white font-medium py-2 mt-10 px-6 rounded-lg hover:pointer hover:scale-95 transition-all duration-300"
                         onClick={() => {
                             const link = document.createElement('a');
-                            link.href = `src/assets/Harsh-resume.pdf`;
+                            link.href = `./files/Harsh-resume.pdf`;
                             link.download = 'Harsh-resume.pdf';
                             document.body.appendChild(link);
                             link.click();
