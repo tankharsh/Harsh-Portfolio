@@ -5,15 +5,15 @@ import About from './components/About'
 import SkillSet from './components/SkillSet'
 import Education from './components/Education'
 import Projects from './components/Projects'
-import Slice0 from './assets/Slice0.png'
-import set2 from './assets/set2.png'
 import Footer from './components/Footer'
+import { motion } from 'motion/react'
+
 
 const App = () => {
   return (
     <>
+
       <div className='h-full w-full bg-[#3D4190]'>
-			
         <Navbar />
         <Home />
       </div>
@@ -29,7 +29,7 @@ const App = () => {
       </div>
 
       <Footer />
-     
+
     </>
   )
 }
