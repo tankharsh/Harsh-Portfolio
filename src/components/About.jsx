@@ -40,6 +40,8 @@ const About = () => {
                             </div>
                         </a>
                     ))}
+
+                    
                 </div>
             </div>
 

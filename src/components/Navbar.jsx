@@ -16,6 +16,8 @@ const Navbar = () => {
 
           <div className="main-txt hidden md:flex space-x-8">
             <ul className="text-white flex gap-x-12">
+              
+              <li className="relative table-cell py-2"><a className="inline-block relative no-underline after-line" href="/">Home</a></li>
               <li className="relative table-cell py-2"><a className="inline-block relative no-underline after-line" href="#about">About</a></li>
               <li className="relative table-cell py-2"><a className="inline-block relative no-underline after-line" href="#skills">Skills</a></li>
               <li className="relative table-cell py-2"><a className="inline-block relative no-underline after-line" href="#project">Project</a></li>

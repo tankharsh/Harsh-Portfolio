@@ -30,7 +30,7 @@ const Projects = () => {
     id='project'
     class=" h-auto flex items-center bg-[#010e28] bg-[linear-gradient(to_bottom,_#082740_1px,_transparent_1px),_linear-gradient(to_right,_#082740_1px,_transparent_1px)] [background-size:30px_30px] bg-center overflow-x-hidden animate-bgmove">
 
-    <div className="py-12 md:px-20 lg:px-32">
+    <div className="py-12 md:px-20 lg:px-28 p-8 ">
       <h1 className="head-txt text-center text-4xl md:text-5xl font-bold text-white mb-12">Projects</h1>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {Proj.map((project, indx) => (
@@ -44,7 +44,7 @@ const Projects = () => {
               {project.working && <span className="font-sans ml-2 px-3 py-1 bg-green-500 text-white text-xs rounded-full">Working</span>}
             </h2>
             <p className="text-gray-600 mt-3 text-lg">{project.disc}</p>
-            <p className="mt-4 text-sm text-gray-700 font-medium">Technology: <span className="text-[#6D28D9]">{project.Tech}</span></p>
+            <p className="mt-4 text-sm text-gray-700 font-medium">Tech stack : <span className="text-[#6D28D9]">{project.Tech}</span></p>
             <div className="mt-6">
               {project.github && (
                 <a 
