@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <div className="container mx-auto text-center mt-5 font-bold bg-[#8E93F1] py-3 text-sm">
+                <div className="container w-full text-center mt-5 font-bold bg-[#8E93F1] py-3 text-sm">
                     © 2025 Harsh's Portfolio.
                 </div>
             </div>
