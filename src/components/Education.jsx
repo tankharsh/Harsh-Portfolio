@@ -32,9 +32,9 @@ const Education = () => {
     ];
 
     return (
-        <div className='h-[100vh] bg-[#3D4190] flex flex-col items-center'>
-            <h1 className='head-txt text-5xl text-center text-white pt-20'>Education</h1>
-            <div className="relative border-l-4 border-white mt-12">
+        <div className='h-[100vh] pl-10 bg-[#3D4190] flex flex-col items-center'>
+            <h1 className='head-txt text-5xl text-center text-white pt-10'>Education</h1>
+            <div className="relative border-l-4 border-white mt-8">
                 {education.map((edu, index) => (
                     <div key={index} className="mb-10 ml-12 text-white">
                         <div className="absolute -left-3 w-6 h-6 bg-white rounded-full border-4"></div>

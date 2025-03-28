@@ -8,6 +8,7 @@ import JSX from '../assets/JSX.png';
 import bts from '../assets/bts.png';
 import tailwind from '../assets/tailwind.png';
 import mysql from '../assets/mysql.png';
+import { motion } from "framer-motion";
 
 const skills = [
   { img: html, name: 'HTML' },
@@ -64,31 +65,37 @@ const SkillSet = () => {
           }
         `}
       </style>
-      <h1 className="head-txt text-center text-4xl md:text-5xl font-bold text-white mb-12">Projects</h1>
+      <h1 className="head-txt text-center text-4xl md:text-5xl font-bold text-white mb-12">Skills</h1>
       <div className="grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8 px-4 sm:px-12 md:px-16">
         {skills.map((skill, index) => (
-          <StyledCard key={index} delay={index * 0.1} animationOffset={index % 4}>
-            <div className="card-inner">
-              <div className="card-front">
-                <div className="card-content">
-                  <div className="wave-container">
-                    <div className="wave" />
-                    <div className="wave" />
-                    <div className="wave" />
-                  </div>
-                  <div className="icon-container">
-                    <img src={skill.img} alt={skill.name} className="skill-icon" />
-                  </div>
-                  <div className="text-container">
-                    <h2 className="skill-name">{skill.name}</h2>
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
+          >
+            <StyledCard delay={index * 0.1} animationOffset={index % 4}>
+              <div className="card-inner">
+                <div className="card-front">
+                  <div className="card-content">
+                    <div className="wave-container">
+                      <div className="wave" />
+                      <div className="wave" />
+                      <div className="wave" />
+                    </div>
+                    <div className="icon-container">
+                      <img src={skill.img} alt={skill.name} className="skill-icon" />
+                    </div>
+                    <div className="text-container">
+                      <h2 className="skill-name">{skill.name}</h2>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            {/* <div className="card-glow" /> */}
-            {/* <div className="card-shine" /> */}
-            <div className="border-animation" />
-          </StyledCard>
+              <div className="border-animation" />
+            </StyledCard>
+          </motion.div>
         ))}
       </div>
     </div>
