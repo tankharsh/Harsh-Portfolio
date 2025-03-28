@@ -18,8 +18,8 @@ const Footer = () => {
                         className="bg-purple-500 hover:bg-purple-600 text-white font-medium py-2 px-6 rounded-lg"
                         onClick={() => {
                             const link = document.createElement('a');
-                            link.href = `${conf.publicUrl}/Harsh-resume.pdf`;
-                            link.download = 'Harsh-resume.pdf';
+                            link.href = `/files/Harshad_Tank.pdf`;
+                            link.download = 'Harshad_Tank_CV.pdf';
                             document.body.appendChild(link);
                             link.click();
                             document.body.removeChild(link);
